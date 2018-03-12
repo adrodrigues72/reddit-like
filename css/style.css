@@ -1,0 +1,117 @@
+#container,
+#search {
+  margin: 0 auto;
+  width: 900px;
+}
+@media only screen and (max-width: 768px) {
+  #container,
+  #search {
+    width: auto;
+  }
+}
+#search {
+  padding: 30px;
+  margin-bottom: 30px;
+  box-shadow: 0 1px 1px #ccc;
+  border-radius: 10px;
+}
+#newPost {
+  float: right;
+  background-color: #aa1122;
+  font-size: 12px;
+  font-family: arial, verdana;
+  padding: 10px;
+  color: #fff;
+  box-shadow: 0 1px 1px #ccc;
+}
+section {
+  margin-bottom: 30px;
+  font-family: arial, verdana;
+  font-size: 12px;
+}
+section div.arrows ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 4px;
+  text-align: center;
+}
+section div.arrows li {
+  padding: 3px;
+}
+section div.arrows div.up {
+  background-image: url(../img/greyarrows.jpg);
+  background-position: -5px -20px;
+  background-repeat: no-repeat;
+  height: 20px;
+  background-size: 30px;
+  width: 20px;
+  cursor: pointer;
+}
+section div.arrows div.upLike {
+  background-image: url(../img/redgreenarrows.jpg);
+  background-position: -5px -20px;
+  background-repeat: no-repeat;
+  height: 20px;
+  background-size: 30px;
+  width: 20px;
+}
+section div.arrows div.down {
+  background-image: url(../img/greyarrows.jpg);
+  background-position: -6px 1px;
+  background-repeat: no-repeat;
+  height: 20px;
+  background-size: 30px;
+  width: 20px;
+  cursor: pointer;
+}
+section div.arrows div.downLike {
+  background-image: url(../img/redgreenarrows.jpg);
+  background-position: -6px 1px;
+  background-repeat: no-repeat;
+  height: 20px;
+  background-size: 30px;
+  width: 20px;
+}
+section div.arrows,
+section div.figure {
+  float: left;
+  margin-right: 15px;
+}
+section div.figure img {
+  max-width: 80px;
+}
+section div.postContent footer div {
+  padding: 5px;
+  border-radius: 5px;
+}
+section div.postContent footer div.pd {
+  background-color: #00ff99;
+  color: #ffffff;
+}
+section div.postContent footer div.uxt {
+  background-color: #0099cc;
+  color: #ffffff;
+}
+section div.postContent footer div.op {
+  background-color: #ff9900;
+  color: #ffffff;
+}
+section div.postContent h1 {
+  margin: 2px;
+}
+section div.postContent footer ul {
+  list-style-type: none;
+}
+section div.postContent footer ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+section div#more {
+  text-align: center;
+  padding: 15px;
+  background-color: #eee;
+  border-radius: 10px;
+  color: #ffa448;
+  cursor: pointer;
+  box-shadow: 0 1px 1px #ccc;
+}
